@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Create User
-parent: User APIs
+title: Apply Card
+parent: Card Application APIs
 nav_order: 1
-permalink: /api/user/create/
+permalink: /api/card/application/apply
 ---
 
-# Create User
+# Apply Card
 
 <button type="button" name="button" class="btn btn-purple fs-1">POST</button>
-{BASE_URL}/api/v1/user/create
+{BASE_URL}/api/v1/card/application/apply
 
-This endpoint allows you to create a new user
+This endpoint allows you to apply for a card purchase.
 
 {: .note}
 Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/setup)
 
 ## Body Params
 
-[Create User Input DTO](/types/createUser)
+[Apply Card Input DTO](/types/applyCard)

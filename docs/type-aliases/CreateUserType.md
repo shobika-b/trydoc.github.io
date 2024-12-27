@@ -2,10 +2,10 @@
 layout: page
 title: Create User Type
 parent: Types
-permalink: /types/createuser
+permalink: /types/createUser
 ---
 
-# Type Alias : Create User Type
+# Type Alias : Create User
 
 CreateUserInputDTO: object
 

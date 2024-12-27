@@ -2,10 +2,10 @@
 layout: page
 title: Update User Type
 parent: Types
-permalink: /types/updateuser
+permalink: /types/updateUser
 ---
 
-# Type Alias : Update User Type
+# Type Alias : Update User
 
 UpdateUserInputDTO: object
 

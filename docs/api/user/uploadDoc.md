@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Create User
+title: Upload Documents
 parent: User APIs
-nav_order: 1
-permalink: /api/user/create/
+nav_order: 2
+permalink: /api/user/upload/
 ---
 
-# Create User
+# Upload User Documents
 
 <button type="button" name="button" class="btn btn-purple fs-1">POST</button>
-{BASE_URL}/api/v1/user/create
+{BASE_URL}/api/v1/user/document/upload
 
-This endpoint allows you to create a new user
+This endpoint allows you to upload documents for kyc verification.
 
 {: .note}
 Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/setup)
 
 ## Body Params
 
-[Create User Input DTO](/types/createUser)
+[Upload Documents Type](/types/uploadDoc)

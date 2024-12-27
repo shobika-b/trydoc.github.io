@@ -2,7 +2,7 @@
 layout: page
 title: Update User
 parent: User APIs
-nav_order: 2
+nav_order: 3
 permalink: /api/user/update/
 ---
 
@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Update User Type](/types/updateuser)
+[Update User Type](/types/updateUser)

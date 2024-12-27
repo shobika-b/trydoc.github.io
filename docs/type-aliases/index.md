@@ -7,4 +7,4 @@ nav_order: 3
 
 # Types
 
-This is the "About" page. Add some information about yourself or your site here.
+Type Aliases allow defining types with a custom name (an Alias).
