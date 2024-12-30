@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Activate Card Input DTO](/types/activateCard)
+[Activate Card Input DTO](/trydoc.github.io/types/activateCard)
