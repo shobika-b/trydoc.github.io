@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Upload Documents Type](/types/uploadDoc)
+[Upload Documents Type](/trydoc.github.io/types/uploadDoc)

@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Card Topup Input DTO](/types/cardTopup)
+[Card Topup Input DTO](/trydoc.github.io/types/cardTopup)

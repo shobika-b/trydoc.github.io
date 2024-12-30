@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Create User Input DTO](/types/createUser)
+[Create User Input DTO](/trydoc.github.io/types/createUser)

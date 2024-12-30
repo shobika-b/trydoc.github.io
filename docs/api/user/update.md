@@ -18,4 +18,4 @@ Before proceeding with further integrations, ensure that you have set up the aut
 
 ## Body Params
 
-[Update User Type](/types/updateUser)
+[Update User Type](/trydoc.github.io/types/updateUser)
