@@ -14,7 +14,7 @@ permalink: /api/card/activate
 This endpoint allows you to activate card.
 
 {: .note}
-Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/setup)
+Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/trydoc.github.io/setup)
 
 ## Body Params
 

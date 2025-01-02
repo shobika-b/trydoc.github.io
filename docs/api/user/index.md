@@ -6,4 +6,4 @@ nav_order: 1
 permalink: /api/user/
 ---
 
-# User Apis
+# User Management Apis
