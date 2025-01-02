@@ -29,6 +29,6 @@ base64data is the image of document type PASSPORT or SIGNATURE or SELFIE_WITH_PA
 
 PASSPORT - Needs to show the passport biopage and ensure that all information is clear and readable
 
-SIGNATURE - Signature specimen of the applicant. It can a digital signature or a photo of a wet signature but do not use a typed signature where a font was used
+SIGNATURE - Signature specimen of the applicant. It can be a digital signature or a photo of a wet signature but do not use a typed signature where a font was used
 
 SELFIE_WITH_PASSPORT - A clear photo of the applicant holding the passport open with the passport biopage clear and readable
