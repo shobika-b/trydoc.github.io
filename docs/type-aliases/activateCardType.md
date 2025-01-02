@@ -14,4 +14,4 @@ ActivateCardInputDTO: object
 | field                | type      | required  | source                                                          | specifications                              |
 |:---------------------|:----------|:----------|:----------------------------------------------------------------|:--------------------------------------------|
 | userCardId           | string    | yes       | *userCardID* key from CARD_APPLICATION_UPDATE webhook response  | unique identifier for a user purchased card |
-| selfieImg            | string    | yes       | -                                                               | image in base64 format                      |
+| selfieImg            | string    | yes       | -                                                               | image in base64 format showing the applicant holding both card and passport with information clear and readable|
