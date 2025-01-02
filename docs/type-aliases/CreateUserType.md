@@ -11,22 +11,22 @@ CreateUserInputDTO: object
 
 ## Type declaration
 
-| field                | type      | required  |
-|:---------------------|:----------|:----------|
-| title                | string    | yes       |
-| first_name           | string    | yes       |
-| last_name            | string    | yes       |
-| gender               | string    | yes       |
-| dob                  | string    | yes       |
-| place_of_birth       | string    | yes       |
-| birth_country        | string    | yes       |
-| village              | string    | yes       |
-| district             | string    | yes       |
-| province             | string    | yes       |
-| isd_code             | int       | yes       |
-| telephone            | string    | yes       |
-| mail                 | string    | yes       |
-| occupation           | string    | yes       |
-| passportnumber       | string    | yes       |
-| passport_issue_date  | string    | yes       |
-| passport_expiry_date | string    | yes       |
+| field                | type      | required  | specifications                              |
+|:---------------------|:----------|:----------|:--------------------------------------------|
+| title                | string    | yes       | maximum 5 characters eg: Mr, Ms, Dr         |
+| first_name           | string    | yes       | only alphabets                              |
+| last_name            | string    | yes       | only alphabets                              |
+| gender               | string    | yes       | accepted values - Male, Female, Other, None |
+| dob                  | string    | yes       | format - DD/MM/YYYY                         |
+| place_of_birth       | string    | yes       | full country name, maximum 10 characters    |
+| birth_country        | string    | yes       | 2-digit ISO format eg: Australia = *AU*     |
+| village              | string    | yes       | -                                           |
+| district             | string    | yes       | -                                           |
+| province             | string    | yes       | -                                           |
+| isd_code             | int       | yes       | eg Australia - *61*                         |
+| telephone            | string    | yes       | -                                           |
+| mail                 | string    | yes       | -                                           |
+| occupation           | string    | yes       | -                                           |
+| passportnumber       | string    | yes       | -                                           |
+| passport_issue_date  | string    | yes       | format - DD/MM/YYYY                         |
+| passport_expiry_date | string    | yes       | format - DD/MM/YYYY                         |

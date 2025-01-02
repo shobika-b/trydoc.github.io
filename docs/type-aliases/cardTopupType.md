@@ -11,7 +11,7 @@ CardTopupInputDTO: object
 
 ## Type declaration
 
-| field                | type      | required  |
-|:---------------------|:----------|:----------|
-| userCardId           | string    | yes       |
-| amount               | float64   | yes       |
+| field                | type      | required  | source                                                          | specifications                              |
+|:---------------------|:----------|:----------|:----------------------------------------------------------------|:--------------------------------------------|
+| userCardId           | string    | yes       | *userCardID* key from CARD_APPLICATION_UPDATE webhook response  | unique identifier for a user purchased card |
+| amount               | float64   | yes       | -                                                               | needs to be greater than 50                 |

@@ -13,5 +13,11 @@ permalink: /api/card/applicationById
 
 This endpoint allows you to get card application details by application ID.
 
+Route Parameter :
+
+| field             | type         | required  | source                                                                                                          | specifications               |
+|:------------------|:-------------|:----------|:----------------------------------------------------------------------------------------------------------------|:---------------------------------------|
+| cardApplicationId | string       | yes       | id from card/application/apply api response or specific application ID from /card/application/list api response | unique identifier for a card application|
+
 {: .note}
 Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/trydoc.github.io/setup)

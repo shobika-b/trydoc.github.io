@@ -31,9 +31,9 @@ Use a shared secret key and a cryptographic hash function (such as SHA-256) to g
 
 Example to generate signature using CryptoJS -
 
- `const signature = CryptoJS. HmacSHA256(message, secret)`
-
- `CryptoJS.enc.Hex.stringify(signature)`
+> const signature = CryptoJS. HmacSHA256(message, secret) 
+>
+> CryptoJS.enc. Hex.stringify(signature)`
 
 ### 3. Send the Signature with the Request:
 

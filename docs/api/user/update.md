@@ -16,6 +16,12 @@ This endpoint allows you to update user details
 {: .note}
 Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/trydoc.github.io/setup)
 
+Route Parameter :
+
+| field     | type         | required  | source                                                                           | specifications               |
+|:----------|:----------   |:----------|:---------------------------------------------------------------------------------|:-----------------------------|
+| userID    | string       | yes       | id from user/create api response or specific user ID from user/list api response | unique identifier for a user |
+
 ## Body Params
 
 [Update User Type](/trydoc.github.io/types/updateUser)

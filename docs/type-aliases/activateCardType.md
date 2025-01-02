@@ -11,7 +11,7 @@ ActivateCardInputDTO: object
 
 ## Type declaration
 
-| field                | type      | required  |
-|:---------------------|:----------|:----------|
-| userCardId           | string    | yes       |
-| selfieImg            | string    | yes       |
+| field                | type      | required  | source                                                          | specifications                              |
+|:---------------------|:----------|:----------|:----------------------------------------------------------------|:--------------------------------------------|
+| userCardId           | string    | yes       | *userCardID* key from CARD_APPLICATION_UPDATE webhook response  | unique identifier for a user purchased card |
+| selfieImg            | string    | yes       | -                                                               | image in base64 format                      |

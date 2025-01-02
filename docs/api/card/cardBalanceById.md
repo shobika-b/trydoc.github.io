@@ -13,5 +13,11 @@ permalink: /api/card/balanceById/
 
 This endpoint allows you to get card balance by cardId.
 
+Route Parameter :
+
+| field  | type      | required  | source                                                          | specifications                              |
+|:-------|:----------|:----------|:----------------------------------------------------------------|:--------------------------------------------|
+| cardId | string    | yes       | *userCardID* key from CARD_APPLICATION_UPDATE webhook response  | unique identifier for a user purchased card |
+
 {: .note}
 Before proceeding with further integrations, ensure that you have set up the authentication mechanism. [Setup and Authentication](/trydoc.github.io/setup)
